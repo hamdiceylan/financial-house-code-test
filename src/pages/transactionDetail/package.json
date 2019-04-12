@@ -1,0 +1,7 @@
+{
+    "name": "Transaction Detail",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./transactionDetail.js"
+  }
+  

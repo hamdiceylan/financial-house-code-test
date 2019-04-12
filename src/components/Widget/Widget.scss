@@ -1,0 +1,19 @@
+@import '../../styles/app';
+
+.widget {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  padding: $widget-padding-y $widget-padding-x;
+  background: $widget-bg;
+  box-shadow: 5px 10px #f3f2f2;
+
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 1.5rem / 2;
+  color: $widget-title-color;
+
+  @include clearfix();
+}
